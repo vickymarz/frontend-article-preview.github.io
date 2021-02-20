@@ -1,11 +1,3 @@
-@font-face {
-	font-family: 'Manrope-Medium';
-	src: url(../Manrope/static/Manrope-Medium.ttf);
-}
-@font-face {
-	font-family: 'Manrope-Bold';
-	src: url(../Manrope/static/Manrope-Bold.ttf);
-}
 // Global styling
 // COLORS
 $Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
@@ -60,13 +52,11 @@ img {
 	margin: 0 auto 3.5rem auto;
 	h1 {
 		padding-bottom: 1.5rem;
-		font-family: Manrope-Bold;
 		font-weight: $weight-bold;
 		font-size: 1.4rem;
 	}
 	p {
 		line-height: 1.5;
-		font-family: Manrope-Bold;
 		font-weight: $weight-bold;
 		font-size: 1.2rem;
 		opacity: 0.4;
@@ -92,11 +82,9 @@ img {
 			.article-writer__name {
 				margin-left: 1.5rem;
 				h3 {
-					font-family: Manrope-Bold;
 					font-weight: $weight-bold;
 				}
 				h4 {
-					font-family: Manrope-Bold;
 					font-weight: $weight-bold;
 					font-size: 1.1rem;
 					opacity: 0.3;
@@ -128,7 +116,6 @@ img {
 			display: flex;
 			h5 {
 				color: $Grayish-Blue;
-				font-family: Manrope-Medium;
 				font-weight: $weight-medium;
 				font-size: 1rem;
 				letter-spacing: 5px;
