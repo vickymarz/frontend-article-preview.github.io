@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Manrope-Medium";
-  src: url(../Manrope/static/Manrope-Medium.ttf);
-}
-@font-face {
-  font-family: "Manrope-Bold";
-  src: url(../Manrope/static/Manrope-Bold.ttf);
-}
 *,
 *::before,
 *::after {
@@ -53,13 +45,11 @@ img {
 }
 .content--margin h1 {
   padding-bottom: 1.5rem;
-  font-family: Manrope-Bold;
   font-weight: 700;
   font-size: 1.4rem;
 }
 .content--margin p {
   line-height: 1.5;
-  font-family: Manrope-Bold;
   font-weight: 700;
   font-size: 1.2rem;
   opacity: 0.4;
@@ -88,11 +78,9 @@ img {
   margin-left: 1.5rem;
 }
 .article-writer .article-writer-box .article-writer__img .article-writer__name h3 {
-  font-family: Manrope-Bold;
   font-weight: 700;
 }
 .article-writer .article-writer-box .article-writer__img .article-writer__name h4 {
-  font-family: Manrope-Bold;
   font-weight: 700;
   font-size: 1.1rem;
   opacity: 0.3;
@@ -124,7 +112,6 @@ img {
 }
 .article-writer-wrapper .article-writer-icons .icons__content h5 {
   color: #9eafc2;
-  font-family: Manrope-Medium;
   font-weight: 500;
   font-size: 1rem;
   letter-spacing: 5px;
